@@ -32,7 +32,7 @@ int main(){
     }
     int slice_size = i_min;
     
-    //the value of i is i_min (i=i_min), with that in mind we can do the following:
+    //the value of i is i_min+1 (i = i_min+1), with that in mind we can do the following:
     if(curr_max != max)
         while(i < n){
             if(array[i] == max){
