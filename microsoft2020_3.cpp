@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
     int n;
-    int min, max, i_min=0, curr_max=0, count=1; //min is initialized in "if" at line 17
+    int min, max, i_min=0, curr_max=0, count=1; //min and max are both initialized in "if" at line 17
     int i; 
     vector<int> array;
     cin >> n; 
