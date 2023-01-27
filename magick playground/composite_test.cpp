@@ -7,8 +7,6 @@ using namespace Magick;
 
 int main(int argc, char **argv) {
 
-// In an internet example, I read this two lines are needed.
-// 	int main(ssize_t /*argc*/, char ** argv) {
  	InitializeMagick(nullptr);
 	int width=1536, height=760;
 	string fileNameFullPath1 = "test.png";
