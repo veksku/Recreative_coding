@@ -7,8 +7,6 @@ using namespace Magick;
 
 int main(int argc, char **argv) {
 
-// In an internet example, I read this two lines are needed.
-// 	int main(ssize_t /*argc*/, char ** argv) {
  	InitializeMagick(nullptr);
 	double A_x, A_y, B_x, B_y;
 	cout << "Unesi A_x" << endl;
